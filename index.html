@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -52,7 +55,7 @@
 
         </div>
 
- <!-- box 22222-->
+        <!-- box 22222-->
 
         <div class="mainbox hide mainbox2 items-center justify-center  p-4">
 
@@ -77,11 +80,11 @@
 
                 <!-- Weather Image -->
                 <div class="flex justify-center mt-8">
-                    <img src="few clouds.png" alt="Weather" class="w-40 sm:w-48 md:w-56">
+                    <img id="icon" src="few clouds.png" alt="Weather" class="w-40 sm:w-48 md:w-56">
                 </div>
 
                 <!-- Description -->
-                <h2 class="text-center text-white text-2xl font-semibold mt-4">
+                <h2 id="description" class="text-center text-white text-2xl font-semibold mt-4">
                     Cloudy
                 </h2>
 
@@ -91,7 +94,7 @@
                         <span id="degree">28</span>°C
                     </h1>
 
-                    <p class="text-xl text-yellow-300 font-medium">
+                    <p id="cityName" class="text-xl text-yellow-300 font-medium">
                         Delhi
                     </p>
                 </div>
@@ -105,7 +108,7 @@
 
                         <div>
                             <p class="text-gray-200 text-sm">Wind</p>
-                            <p class="text-white font-semibold">2.57 km/h</p>
+                            <p id="speed" class="text-white font-semibold">2.57 km/h</p>
                         </div>
                     </div>
 
@@ -115,7 +118,7 @@
 
                         <div>
                             <p class="text-gray-200 text-sm">Humidity</p>
-                            <p class="text-white font-semibold">65%</p>
+                            <p id="humidityPercent" class="text-white font-semibold">65%</p>
                         </div>
                     </div>
 
@@ -125,36 +128,36 @@
 
         </div>
 
- <!-- box 33333-->
+        <!-- box 33333-->
 
-       <div class="mainbox hide flex flex-col items-center justify-center text-center px-6 py-8">
+        <div class="mainbox hide mainbox3 flex flex-col items-center justify-center text-center px-6 py-8">
 
-    <!-- Error Image -->
+            <!-- Error Image -->
 
 
-    <!-- Error Code -->
-    <h1 class="text-6xl sm:text-7xl font-extrabold text-white">
-        404
-    </h1>
+            <!-- Error Code -->
+            <h1 class="text-6xl sm:text-7xl font-extrabold text-white">
+                404
+            </h1>
 
-    <!-- Title -->
-    <h2 class="mt-3 text-2xl sm:text-3xl font-semibold text-yellow-400">
-        City Not Found
-    </h2>
+            <!-- Title -->
+            <h2 class="mt-3 text-2xl sm:text-3xl font-semibold text-yellow-400">
+                City Not Found
+            </h2>
 
-    <!-- Description -->
-    <p class="mt-4 text-gray-200 text-sm sm:text-base max-w-xs">
-        We couldn't find the city you're looking for.
-        Please check the spelling and try again.
-    </p>
+            <!-- Description -->
+            <p class="mt-4 text-gray-200 text-sm sm:text-base max-w-xs">
+                We couldn't find the city you're looking for.
+                Please check the spelling and try again.
+            </p>
 
-    <!-- Button -->
-    <button
-        class="mt-8 px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-300 hover:scale-105 transition duration-300">
-        Try Again
-    </button>
+            <!-- Button -->
+            <button id="back"
+                class="mt-8 px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-300 hover:scale-105 transition duration-300">
+                Try Again
+            </button>
 
-</div>
+        </div>
 
     </main>
 
